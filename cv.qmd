@@ -1,0 +1,7 @@
+---
+title: "CV"
+---
+
+<!-- TODO: export _source/Haque_CV.docx to PDF, place at assets/Haque_CV.pdf, then update the link below -->
+
+[Download CV (PDF)](assets/Haque_CV.pdf)
