@@ -2,12 +2,72 @@
 title: "Policy Work"
 ---
 
-TODO: framing sentence
+<p>I write for policymakers and practitioners alongside academic audiences. These briefs and reports translate evidence from field experiments and administrative data into decisions that agencies and nonprofits can act on. Several draw on projects I led in Bangladesh with government and multilateral partners, such as UNDP, the World Bank, the Gates Foundation, USAID, and UKAID.</p>
 
-## Policy Briefs
+<div class="filter-buttons">
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="brief">Briefs</button>
+<button class="filter-btn" data-filter="report">Reports</button>
+</div>
 
-TODO: policy briefs list
+<div class="pub-entry" data-type="brief">
+<p class="pub-title"><a href="https://surface.syr.edu/cpr/536/" target="_blank" rel="noopener"><strong>Do Nonprofit Ratings Help Donors Make Better Decisions?</strong></a></p>
+<p class="pub-meta">Haque, A. <em>2026.</em></p>
+</div>
 
-## Research Reports
+<div class="pub-entry" data-type="brief">
+<p class="pub-title"><a href="https://surface.syr.edu/cpr/498/" target="_blank" rel="noopener"><strong>How can public sector employers improve the effectiveness of email recruitment?</strong></a></p>
+<p class="pub-meta">Haque, A. <em>2025.</em></p>
+</div>
 
-TODO: research reports list
+<div class="pub-entry" data-type="report">
+<p class="pub-title"><a href="https://doc.ukdataservice.ac.uk/doc/8903/mrdoc/pdf/8903_gage_banglades-chitsyl2018_crosssection_manual_basic_information.pdf" target="_blank" rel="noopener"><strong>GAGE Bangladesh–Chittagong and Sylhet 2018 cross-section basic information document</strong></a></p>
+<p class="pub-meta">Haque, A., et al. <em>2022.</em></p>
+</div>
+
+<div class="pub-entry" data-type="brief">
+<p class="pub-title"><a href="https://poverty-action.org/publication/normalizing-mask-wearing-urban-areas" target="_blank" rel="noopener"><strong>The Impact of Mask Distribution and Promotion on Mask Uptake and COVID-19 in Bangladesh</strong></a></p>
+<p class="pub-meta">Haque, A., et al. <em>2021.</em></p>
+</div>
+
+<div class="pub-entry" data-type="report">
+<p class="pub-title"><a href="https://gage.odi.org/wp-content/uploads/2020/10/Adolescents%E2%80%99-experiences-of-covid-19-and-the-public-health-response-in-urban-Dhaka-Bangladesh-v4.pdf" target="_blank" rel="noopener"><strong>Adolescents' experiences of COVID-19 and the public health response in urban Dhaka, Bangladesh</strong></a></p>
+<p class="pub-meta">Haque, A., et al. <em>2020.</em></p>
+</div>
+
+<div class="pub-entry" data-type="brief">
+<p class="pub-title"><a href="https://www.prio.org/publications/11997" target="_blank" rel="noopener"><strong>Mapping education programmes for Rohingya refugees in Bangladesh</strong></a></p>
+<p class="pub-meta">Haque, A., et al. <em>2019.</em></p>
+</div>
+
+<div class="pub-entry" data-type="report">
+<p class="pub-title"><a href="https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/888/Institution%20of%20Accountability%20OCAG%202009.pdf?sequence=1" target="_blank" rel="noopener"><strong>Office of the Comptroller and Auditor General (OCAG)</strong></a></p>
+<p class="pub-meta">Haque, A. <em>2009.</em></p>
+</div>
+
+<div class="pub-entry" data-type="report">
+<p class="pub-title"><a href="https://bigd.bracu.ac.bd/publications/the-state-of-governance-in-bangladesh-2008-confrontation-competition-accountability-2/" target="_blank" rel="noopener"><strong>Confrontation, competition, accountability: The state of governance in Bangladesh</strong></a></p>
+<p class="pub-meta">Haque, A., et al. <em>2009.</em></p>
+</div>
+
+<script>
+(function () {
+  var btns = document.querySelectorAll('.filter-btn');
+  var entries = document.querySelectorAll('.pub-entry');
+
+  btns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var filter = this.dataset.filter;
+
+      btns.forEach(function (b) { b.classList.remove('active'); });
+      this.classList.add('active');
+
+      entries.forEach(function (entry) {
+        var type = entry.dataset.type || '';
+        var show = filter === 'all' || type === filter;
+        entry.style.display = show ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>

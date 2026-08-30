@@ -2,6 +2,8 @@
 title: "CV"
 ---
 
-<!-- TODO: export _source/Haque_CV.docx to PDF, place at assets/Haque_CV.pdf, then update the link below -->
+<p><a href="cv/haque-cv.pdf" target="_blank" rel="noopener" style="font-weight:600;">Download CV (PDF)</a></p>
 
-[Download CV (PDF)](assets/Haque_CV.pdf)
+<iframe src="cv/haque-cv.pdf" width="100%" height="900px" style="border:none; margin-top:1rem;"></iframe>
+
+<p style="font-size:0.875rem; color:#555; margin-top:0.75rem;">If the PDF does not display, <a href="cv/haque-cv.pdf" target="_blank" rel="noopener">open it directly</a>.</p>

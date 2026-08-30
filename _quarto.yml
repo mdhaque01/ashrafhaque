@@ -1,12 +1,15 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - syllabi/
+    - cv/
 
 lang: en
 
 website:
   title: "Ashraf Haque"
-  site-url: https://TODO.github.io
+  site-url: https://mdhaque01.github.io/ashrafhaque/
   description: "Md Ashraful Haque, PhD candidate in public administration at the Maxwell School, Syracuse University. Research on accountability, technology in government, and behaviorally informed design."
   open-graph:
     title: "Ashraf Haque"
@@ -14,9 +17,6 @@ website:
   navbar:
     background: white
     foreground: "#1A1A1A"
-    left:
-      - text: "Ashraf Haque"
-        href: index.qmd
     right:
       - text: "Research"
         href: research.qmd

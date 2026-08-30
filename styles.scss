@@ -37,18 +37,106 @@ $navbar-hl:              #1F3864;
 .social-icons {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 16px;
   margin-top: 1.25rem;
 }
 
 .social-icons a {
   color: #1A1A1A;
   text-decoration: none;
-  line-height: 1;
   display: inline-flex;
+  align-items: center;
 }
 
 .social-icons a:hover {
   color: #1F3864;
   text-decoration: none;
+}
+
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+}
+
+// Research page
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.35rem 0.9rem;
+  border: 1px solid #1A1A1A;
+  background: white;
+  color: #1A1A1A;
+  cursor: pointer;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 0.875rem;
+  border-radius: 2px;
+}
+
+.filter-btn:hover {
+  background: #f5f5f5;
+}
+
+.filter-btn.active {
+  background: #1F3864;
+  color: white;
+  border-color: #1F3864;
+}
+
+.pub-section {
+  margin-bottom: 2rem;
+}
+
+.pub-entry {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  margin-bottom: 0.2rem;
+}
+
+.pub-meta {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.pub-links {
+  margin-top: 0.4rem;
+  font-size: 0.875rem;
+}
+
+details.pub-abstract {
+  margin-top: 0.4rem;
+  font-size: 0.875rem;
+}
+
+details.pub-abstract > summary {
+  cursor: pointer;
+  color: #1F3864;
+  user-select: none;
+}
+
+details.pub-abstract > summary:hover {
+  text-decoration: underline;
+}
+
+details.pub-abstract[open] > summary {
+  margin-bottom: 0.5rem;
+}
+
+details.pub-abstract p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
 }

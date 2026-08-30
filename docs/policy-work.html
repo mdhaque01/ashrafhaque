@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9daf2dec90919566f13366ab201371c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3b0deb8d25ac9d482d904e48c14f7883.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,12 +99,6 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Ashraf Haque</span></a>
-  </li>  
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
@@ -156,17 +150,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>TODO: framing sentence</p>
-<section id="policy-briefs" class="level2">
-<h2 class="anchored" data-anchor-id="policy-briefs">Policy Briefs</h2>
-<p>TODO: policy briefs list</p>
-</section>
-<section id="research-reports" class="level2">
-<h2 class="anchored" data-anchor-id="research-reports">Research Reports</h2>
-<p>TODO: research reports list</p>
+<p>
+I write for policymakers and practitioners alongside academic audiences. These briefs and reports translate evidence from field experiments and administrative data into decisions that agencies and nonprofits can act on. Several draw on projects I led in Bangladesh with government and multilateral partners, such as UNDP, the World Bank, the Gates Foundation, USAID, and UKAID.
+</p>
+<div class="filter-buttons">
+<button class="filter-btn active" data-filter="all">
+All
+</button>
+<button class="filter-btn" data-filter="brief">
+Briefs
+</button>
+<button class="filter-btn" data-filter="report">
+Reports
+</button>
+</div>
+<div class="pub-entry" data-type="brief">
+<p class="pub-title">
+<a href="https://surface.syr.edu/cpr/536/" target="_blank" rel="noopener"><strong>Do Nonprofit Ratings Help Donors Make Better Decisions?</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A. <em>2026.</em>
+</p>
+</div>
+<div class="pub-entry" data-type="brief">
+<p class="pub-title">
+<a href="https://surface.syr.edu/cpr/498/" target="_blank" rel="noopener"><strong>How can public sector employers improve the effectiveness of email recruitment?</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A. <em>2025.</em>
+</p>
+</div>
+<div class="pub-entry" data-type="report">
+<p class="pub-title">
+<a href="https://doc.ukdataservice.ac.uk/doc/8903/mrdoc/pdf/8903_gage_banglades-chitsyl2018_crosssection_manual_basic_information.pdf" target="_blank" rel="noopener"><strong>GAGE Bangladesh–Chittagong and Sylhet 2018 cross-section basic information document</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A., et al.&nbsp;<em>2022.</em>
+</p>
+</div>
+<div class="pub-entry" data-type="brief">
+<p class="pub-title">
+<a href="https://poverty-action.org/publication/normalizing-mask-wearing-urban-areas" target="_blank" rel="noopener"><strong>The Impact of Mask Distribution and Promotion on Mask Uptake and COVID-19 in Bangladesh</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A., et al.&nbsp;<em>2021.</em>
+</p>
+</div>
+<div class="pub-entry" data-type="report">
+<p class="pub-title">
+<a href="https://gage.odi.org/wp-content/uploads/2020/10/Adolescents%E2%80%99-experiences-of-covid-19-and-the-public-health-response-in-urban-Dhaka-Bangladesh-v4.pdf" target="_blank" rel="noopener"><strong>Adolescents’ experiences of COVID-19 and the public health response in urban Dhaka, Bangladesh</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A., et al.&nbsp;<em>2020.</em>
+</p>
+</div>
+<div class="pub-entry" data-type="brief">
+<p class="pub-title">
+<a href="https://www.prio.org/publications/11997" target="_blank" rel="noopener"><strong>Mapping education programmes for Rohingya refugees in Bangladesh</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A., et al.&nbsp;<em>2019.</em>
+</p>
+</div>
+<div class="pub-entry" data-type="report">
+<p class="pub-title">
+<a href="https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/888/Institution%20of%20Accountability%20OCAG%202009.pdf?sequence=1" target="_blank" rel="noopener"><strong>Office of the Comptroller and Auditor General (OCAG)</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A. <em>2009.</em>
+</p>
+</div>
+<div class="pub-entry" data-type="report">
+<p class="pub-title">
+<a href="https://bigd.bracu.ac.bd/publications/the-state-of-governance-in-bangladesh-2008-confrontation-competition-accountability-2/" target="_blank" rel="noopener"><strong>Confrontation, competition, accountability: The state of governance in Bangladesh</strong></a>
+</p>
+<p class="pub-meta">
+Haque, A., et al.&nbsp;<em>2009.</em>
+</p>
+</div>
+<script>
+(function () {
+  var btns = document.querySelectorAll('.filter-btn');
+  var entries = document.querySelectorAll('.pub-entry');
+
+  btns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var filter = this.dataset.filter;
+
+      btns.forEach(function (b) { b.classList.remove('active'); });
+      this.classList.add('active');
+
+      entries.forEach(function (entry) {
+        var type = entry.dataset.type || '';
+        var show = filter === 'all' || type === filter;
+        entry.style.display = show ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -242,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/TODO\.github\.io");
+        var filterRegex = new RegExp("https:\/\/mdhaque01\.github\.io\/ashrafhaque\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

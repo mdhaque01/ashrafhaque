@@ -2,12 +2,44 @@
 title: "Teaching"
 ---
 
-TODO: teaching philosophy (2–3 sentences)
+<p>Public administration and public policy is a practice discipline. My courses are built to develop transferable skills: defining problems with precision, weighing competing values and constraints, constructing evidence-based arguments, and communicating recommendations to audiences who do not share the same priors that policymakers or academics hold. I frame major assignments around realistic decision contexts, because I want students to feel the weight of the choice and not only the elegance of the analysis.</p>
 
-## Courses
+<p>I also treat difference in the classroom as intellectual material rather than something to manage. Students arrive with different national contexts, disciplinary training, and assumptions about how institutions work. When those assumptions collide with the syllabus, that collision is the most productive teaching moment available, and I design for it.</p>
 
-TODO: course list
+## Instructor of Record
 
-## Teaching Materials
+<div class="pub-entry">
+<p class="pub-title"><strong>Introduction to Public Administration</strong></p>
+<p class="pub-meta">North South University</p>
+<p>Introduces the foundational concepts, theories, and debates of public administration. Examines why government institutions exist and what needs they serve, how bureaucracies behave in practice, and how accountability is designed and often undermined. Students apply competing theoretical frameworks to real governance problems and develop professional skills in analysis, writing, and oral argument.</p>
+<p class="pub-links"><a href="syllabi/PAD201_Syllabus.pdf" target="_blank" rel="noopener">Download syllabus</a></p>
+</div>
 
-TODO: syllabi or other materials
+<div class="pub-entry">
+<p class="pub-title"><strong>Program Evaluation</strong></p>
+<p class="pub-meta">Jahangirnagar University</p>
+<p>Asks a deceptively simple question: do social programs work? Answering it rigorously requires a toolkit spanning logic modeling, research design, statistical methods, and qualitative inquiry, applied within the political and ethical environment in which evaluations are conducted. Students learn to design evaluations, critically appraise existing evidence, and make defensible funding recommendations.</p>
+<p class="pub-links"><a href="syllabi/PA403_Syllabus.pdf" target="_blank" rel="noopener">Download syllabus</a></p>
+</div>
+
+<div class="pub-entry">
+<p class="pub-title"><strong>Logical Inference and Statistical Analysis</strong></p>
+<p class="pub-meta">Jahangirnagar University</p>
+<p>Covers formal logic and statistical inference as complementary tools for reasoning in public policy. The first half develops skills in translating policy arguments into symbolic form, testing their validity, and identifying fallacies in public discourse. The second half covers probability, hypothesis testing, and communicating statistical results to policy audiences.</p>
+<p class="pub-links"><a href="syllabi/PA307_Syllabus.pdf" target="_blank" rel="noopener">Download syllabus</a></p>
+</div>
+
+<div class="pub-entry">
+<p class="pub-title"><strong>Development Policy and Management</strong></p>
+<p class="pub-meta">Jahangirnagar University</p>
+<p>Introduces the major theories of development and their application to administrative practice. Covers growth theories, Marxist and dependency approaches, globalization and international trade, and the institutions of development administration in Bangladesh, including the annual development program and five-year plans. Students learn to connect competing theoretical accounts of development to concrete planning and implementation decisions.</p>
+</div>
+
+## Teaching Assistant
+
+<div class="pub-entry">
+<p class="pub-title"><strong>Behavioral Public Policy</strong></p>
+<p class="pub-meta">Syracuse University</p>
+<p>Policies are frequently designed assuming a rational target audience, but most people do not fit this assumption. Examines how insights from behavioral economics and psychology can improve public policy design and implementation. Students explore cognitive biases, decision-making heuristics, and choice architecture while developing practical skills in applying behavioral principles to real-world policy challenges.</p>
+<p class="pub-links"><a href="syllabi/PAI700_Syllabus.pdf" target="_blank" rel="noopener">Download syllabus</a></p>
+</div>

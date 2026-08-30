@@ -1,0 +1,64 @@
+- title: "Introduction to Public Administration"
+  number: "PAD 201"
+  institution: "North South University"
+  role: instructor
+  description: >-
+    Introduces the foundational concepts, theories, and debates of public
+    administration. Examines why government institutions exist and what needs
+    they serve, how bureaucracies behave in practice, and how accountability
+    is designed and often undermined. Students apply competing theoretical
+    frameworks to real governance problems and develop professional skills in
+    analysis, writing, and oral argument.
+  syllabus: "syllabi/PAD201_Syllabus.pdf"
+
+- title: "Program Evaluation"
+  number: "PA 403"
+  institution: "Jahangirnagar University"
+  role: instructor
+  description: >-
+    Asks a deceptively simple question: do social programs work? Answering it
+    rigorously requires a toolkit spanning logic modeling, research design,
+    statistical methods, and qualitative inquiry, applied within the political
+    and ethical environment in which evaluations are conducted. Students learn
+    to design evaluations, critically appraise existing evidence, and make
+    defensible funding recommendations.
+  syllabus: "syllabi/PA403_Syllabus.pdf"
+
+- title: "Logical Inference and Statistical Analysis"
+  number: "PA 307"
+  institution: "Jahangirnagar University"
+  role: instructor
+  description: >-
+    Covers formal logic and statistical inference as complementary tools for
+    reasoning in public policy. The first half develops skills in translating
+    policy arguments into symbolic form, testing their validity, and identifying
+    fallacies in public discourse. The second half covers probability,
+    hypothesis testing, and communicating statistical results to policy
+    audiences.
+  syllabus: "syllabi/PA307_Syllabus.pdf"
+
+- title: "Development Policy and Management"
+  number: "PA 506"
+  institution: "Jahangirnagar University"
+  role: instructor
+  description: >-
+    Introduces the major theories of development and their application to
+    administrative practice. Covers growth theories, Marxist and dependency
+    approaches, globalization and international trade, and the institutions of
+    development administration in Bangladesh, including the annual development
+    program and five-year plans. Students learn to connect competing theoretical
+    accounts of development to concrete planning and implementation decisions.
+  syllabus: null
+
+- title: "Behavioral Public Policy"
+  number: "PAI 700"
+  institution: "Syracuse University"
+  role: ta
+  description: >-
+    Policies are frequently designed assuming a rational target audience, but
+    most people do not fit this assumption. Examines how insights from
+    behavioral economics and psychology can improve public policy design and
+    implementation. Students explore cognitive biases, decision-making
+    heuristics, and choice architecture while developing practical skills in
+    applying behavioral principles to real-world policy challenges.
+  syllabus: "syllabi/PAI700_Syllabus.pdf"
