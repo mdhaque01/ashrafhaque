@@ -16,7 +16,7 @@ title: " "
 
 I am a PhD candidate in public administration at the Maxwell School of Citizenship and Public Affairs, Syracuse University. I expect to defend in late 2026.
 
-I study public and nonprofit management. My work asks when information disclosure produces real accountability, how emerging technologies such as AI reshape administrative decision-making, and when behaviorally informed institutional design changes what citizens and officials actually do. I use field and survey experiments, econometrics, and computational social science as methods. Before graduate school, I worked at the intersection of research and policy in Bangladesh as country director for Innovations for Poverty Action and GiveDirectly.
+I study public and nonprofit management. My work asks when information disclosure produces real accountability, how emerging technologies such as AI reshape administrative decision-making, and when behaviorally informed institutional design changes what citizens and officials actually do. My work is quantitative. I use field and survey experiments, quasi-experimental and observational designs, and machine learning and large language models as research tools. Before graduate school, I worked at the intersection of research and policy in Bangladesh as country director for Innovations for Poverty Action and GiveDirectly.
 
 My research appears in *Public Administration Review*, *Science*, *JAMA Network Open*, and the *Journal of Behavioral Public Administration*. My PAR article received the H. Woods Bowman Award from ARNOVA in 2025.
 

@@ -187,11 +187,6 @@ title: "Research"
 </div>
 
 <div class="pub-entry" data-tags="public-management">
-<p class="pub-title"><strong>Validating Customer rating as the measure of administrative capacity</strong></p>
-<p class="pub-meta">Haque, A., Jilke, S., &amp; Dost, M.</p>
-</div>
-
-<div class="pub-entry" data-tags="public-management">
 <p class="pub-title"><strong>Artificial delegation: When administrators delegate more to AI than humans</strong></p>
 <p class="pub-meta">Haque, A.</p>
 </div>
